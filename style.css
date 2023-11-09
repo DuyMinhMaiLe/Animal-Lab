@@ -426,6 +426,18 @@ body {
 
 /* FOOTER */
 
-.bgr-footer {
+#footer {
+    background: url(./img/footer.png);
     max-width: 100%;
+}
+
+.free-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #C65197;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
 }
