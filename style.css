@@ -268,7 +268,6 @@ body {
 
 #boarding {
     display: flex;
-    align-items: center;
     text-align: center;
     flex-direction: column;
     margin-top: 200px;
@@ -288,7 +287,6 @@ body {
     padding-left: 24px;
     padding-right: 24px;
     display: flex;
-    position: relative;
 }
 
 .container-boarding p {
@@ -304,8 +302,10 @@ body {
 }
 
 .tab-boar {
+    margin: 0 70px;
     display: flex;
     position: relative;
+    justify-content: space-between;
     align-items: center;
 }
 
