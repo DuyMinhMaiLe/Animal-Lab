@@ -158,6 +158,8 @@ body {
 .content-bgr {
     display: flex;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
     width: 1170px;
     height: 2800px;
     margin-top: 80px;
@@ -427,8 +429,11 @@ body {
 /* FOOTER */
 
 #footer {
-    background: url(./img/footer.png);
     max-width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .free-footer {
@@ -440,4 +445,23 @@ body {
     padding: 15px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.content-footer {
+    margin-top: 20px;
+}
+
+.prop {
+    display: flex;
+    align-items: center;
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bgr-footer img {
+    width: 100%;
 }
